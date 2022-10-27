@@ -9,7 +9,7 @@ public class AppController {
 
 	@GetMapping("/")
 	public String greeting(Model model) {
-		model.addAttribute("greeting", "Welcome to COMP367");
+		model.addAttribute("greeting", "Good morning, Daniel, Welcome to COMP367");
 		return "index";
 	}
 	
